@@ -1,0 +1,30 @@
+img {
+  display: inline;
+  margin: auto;
+  vertical-align: middle;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul {
+  margin: 1rem 0 1rem 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.left {
+  clear: left;
+  float: left;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.right {
+  clear: right;
+  float: right;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
