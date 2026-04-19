@@ -22,9 +22,20 @@ th:nth-child(2) { width: 30%; }
 th:nth-child(3) { width: 45%; }
 th:nth-child(4) { width: 5%; }
 
-th, td {
-  border: 1px solid #ccc;
-  padding: 8px;
+table th, table td {
+  border: 1px solid #e1dddc;
+}
+
+.drK table th, .drK table td {
+  border: 1px solid #302d2d !important;
+}
+
+.drK table th, .drK table td, .drK table th[style*="border"], .drK table td[style*="border"] {
+  border: 1px solid #302d2d !important;
+}
+
+.drK table, .drK table * {
+  border-color: #302d2d !important;
 }
 
 .center {
